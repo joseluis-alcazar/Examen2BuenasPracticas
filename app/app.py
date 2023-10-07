@@ -3,7 +3,7 @@ import pyodbc
 
 app = Flask(__name__)
 conn = pyodbc.connect(r'DRIVER={Microsoft Access Driver (*.mdb, *.accdb)};'
-                      r'DBQ=C:\Users\ASUS\Documents\GitHub\buenas practicas\ProyectoWeb1\TasksDB.accdb;')
+                      r'DBQ=C:\Users\JOSE\Documents\GitHub\ProyectoWeb1\TasksDB.accdb;')
 
 @app.route('/')
 def index():
